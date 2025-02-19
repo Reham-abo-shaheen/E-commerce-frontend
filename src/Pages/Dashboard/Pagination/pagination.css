@@ -1,0 +1,11 @@
+
+.page-tag-ancor {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+.page-tag-ancor:hover {
+    background-color:#e2a9aa ;
+}

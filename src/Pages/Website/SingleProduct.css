@@ -1,0 +1,37 @@
+.single-product{
+    display: flex;
+    align-items: start;
+    gap: 40px;
+
+}
+.product-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.desc p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.single-product .price {
+    margin-bottom: 20px;
+}
+.single-product .price span:first-child {
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-color: #9b0b1d;
+    color: white;
+    border-radius: 6px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.single-product .price span:last-child {
+    font-size: 50px;
+    font-weight: bold;
+}
+.single-product .rating{
+    font-size: 20px;
+}

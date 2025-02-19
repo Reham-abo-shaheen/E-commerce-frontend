@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+
+
+#container{
+	margin:20px auto;
+	width:90%;
+	text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+
+}
+.error-message {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+}
+.error-message-notfound h1 {
+    font-size: 84px;
+    text-transform: uppercase;
+    color: #eee;
+}
+
+
+.container-notfound{
+    width: 36%;
+    display: inline-block;
+    padding: 5%;
+    background: rgb(155 11 29);
+    border-radius: 25px;
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+}
+.container-contact ,.container-home {
+
+    display: inline-block;
+    margin: 5%;
+    background: #e2a9aa;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    vertical-align: 40px;
+}
+
+.shadow-box {
+    box-shadow: black 2px 1px 72px -10px;
+}
+/* css for mobile phone*/
+@media only screen and (max-width:768px)
+{   
+    .container-notfound > h3 {font-size: 10px;}
+    .container-notfound{width: 30%; }
+    .container-contact,.container-home{display:inline-block; padding:5px; font-size: 5px; vertical-align:25px;}
+    .error-message { height: 30px; width: 30px;line-height: 30px;}
+    .error-message-notfound h1 { font-size: 50px;}
+   
+
+   
+   
+    
+
+}

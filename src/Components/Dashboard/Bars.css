@@ -1,0 +1,167 @@
+:root{
+    --main-color : #583B1F ;
+    --background-color:#e5e0da;
+    --pink-color:#e2a9aa;
+  }
+ 
+  #toggle {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+#toggle:hover {
+    background-color:#e2a9aa !important;
+    border-color:     #e2a9aa !important;
+
+    
+   
+}
+.top-bar {
+    position: fixed;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.bar {
+    flex: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+ .side-bar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.top-bar .search-input:focus ~ i{
+    display: none !important;
+  }
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    min-height: 200px; /* بدلاً من height الثابت */
+    padding: 5px 15px;
+    color: gray;
+    border-radius: 4px;
+    align-items: center;
+    position: relative;
+    top: 12px;
+    gap: 10px; /* بدل margin-bottom */
+}
+.list div:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+.hide-nav , .minify-nav , .lock-nav {
+    background-color: white;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+.minify-nav , .lock-nav {
+    display: none;
+}
+
+.list:hover > .minify-nav ,.list:hover > .lock-nav {
+    display: block;
+}
+.list span {
+    font-size: 11px;
+    background-color: black;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    left: 60px;
+    display: none;
+}
+
+.hide-nav:hover ~ .hide{
+    display: block;
+    top: 50px;
+    width: 90px;
+}
+.minify-nav:hover ~ .mini{
+    display: block;
+    top: 100px;
+    width: 100px;
+}
+.lock-nav:hover ~ .lock{
+    display: block;
+    top: 150px;
+    width: fit-content;
+}
+
+.web-component{
+    color: #d4d2d8;
+    height: 80px;
+    padding: 20px;
+    cursor: pointer;
+}
+.web-component > span{
+    font-size: 35px;
+    margin-right: 5px;
+    
+}
+.web-component h4{
+    font-size: 20px;
+    margin: 0;
+    padding-right: 5px;
+    color: white;
+}
+.web-component:hover > .pop-component {
+    display: flex;
+    transition: 0.3s;
+}
+.pop-component {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(35 20 1 / 33%);
+    display: none;
+   
+
+}
+.pop-component .span:hover {
+    font-size: 20px;
+    transition:0.2s ;
+
+}
+.account-section{
+    background-image:linear-gradient(rgb(0 , 0 ,0 , 0.6) 10% ,rgb(0 , 0 , 0 , 0.6)   50%   ), url(../../assets/dashboard.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    padding: 14px;
+    cursor: pointer;
+}
+.account-section .info{
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elements {
+   height: 100%;
+}
+.sidebar-link {
+   color: var(--main-color);
+   padding: 10px 0 10px 30px;
+   transition:0.3s ;
+  
+}
+.sidebar-link:hover {
+    background-color: rgba(61, 38, 4, 0.2);
+    color: var(--main-color);
+}
+.sidebar-link .active {
+    color: var(--pink-color);
+}

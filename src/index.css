@@ -1,0 +1,58 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+/* Tailwind Rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --main-color : #583B1F ;
+  --background-color:#e5e0da;
+  --pink-color:#e2a9aa;
+  --highlight :rgb(155, 11, 29);
+}
+
+  .background-color {
+    background-color:#E5E0DA ;
+  }
+.text-bg {
+  color:#E5E0DA !important;
+}
+  .text-color {
+    color:#583B1F  !important;
+  }
+.bg-main-color {
+  background-color: #583B1F !important;
+}
+.bg-highlight {
+  background-color: rgb(155, 11, 29);
+}
+.pink-text {
+  color: #e2a9aa;
+}
+.pink-bg{
+  background-color: #e2a9aa;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Lato", serif;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  margin: 0 !important;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row .col-12 {
+  width: 100%;
+}
+.row .col-6 {
+  width: 50%;
+}

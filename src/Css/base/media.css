@@ -1,0 +1,100 @@
+/* container */
+@media (max-width: 576px){
+    .container {
+      width: 100%;
+    }
+
+  }
+  @media (min-width: 576px){
+    .container {
+      width: 540px;
+    }
+  }
+  @media (max-width: 768px){
+    .top-bar {
+      width: calc(100% - 80px) !important ;
+    }
+    .top-bar .search-input {
+      width: 54px;
+    }
+    .top-bar .ssearch-input:focus {
+      width: 200px;
+    }
+
+    .list .hide-nav , .list .hide ,.list .mini {
+      display: none !important;
+    }
+    .list .minify-nav {
+      display: block;
+    }
+  .side-bar {
+    min-width: 80px !important;
+    width: 8px !important;
+  }
+    .side-bar .sidebar-link span {
+      display: none;
+    }
+    .side-bar .web-component h4 {
+      display: none !important;
+    }
+    .side-bar .account-section .info {
+      display: none !important;
+    }
+  }
+  @media (max-width: 767px){
+   
+ 
+    form input {
+      width: 100% !important;
+    }
+    form button{
+      width: fit-content;
+      
+    }
+    .google-signup {
+      max-width: 19rem;
+      max-height: 11rem;
+      margin: 0 auto;
+    }
+    .google-signup img {
+      margin: 10px auto 0;
+      padding: 5px;
+    }
+    
+  }
+  @media (min-width: 768px){
+    .container {
+      width: 720px;
+    }
+  
+    .google-signup {
+      padding: 0;
+      max-width: 15rem !important;
+    }
+    .google-body{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+    .google-body p + button {
+      font-size: 12px !important;
+    }
+  }
+  @media (min-width: 992px){
+    .container {
+      width: 960px;
+    }
+    .google-signup {
+      max-width: 19rem !important;
+  }
+ 
+  }
+  @media (min-width: 1200px){
+    .container {
+      width: 1140px;
+    }
+  }
+  @media (min-width: 1400px){
+    .container {
+      width: 1320px;
+    }
+  }

@@ -1,0 +1,10 @@
+.err-msg {
+    display: block;
+    background-color: rgb(254 202 202);
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 80%;
+    color: rgb(69 10 10);
+    border-radius: 12px;
+
+}
