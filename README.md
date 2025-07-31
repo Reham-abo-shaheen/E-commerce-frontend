@@ -24,11 +24,12 @@ The design simulates a real online store experience with categories, product lis
 
 ## 🖼️ Preview
 
-![screenshot](home.jpg)
+![screenshot](Home.jpg)
 ![screenshot](cart.jpg)
 ![screenshot](products.jpg)
 ![screenshot](login.jpg)
 ![screenshot](categories.jpg)
+![screenshot](best-price.jpg)
 
 
 
