@@ -32,13 +32,7 @@ The design simulates a real online store experience with categories, product lis
 ![screenshot](best-price.jpg)
 
 
+   
 
-## 🌐 Live Demo
-
-👉 [Visit the website](https://e-commerce-reham.netlify.app)
-
-## 📁 How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Reham-abo-shaheen/E-commerce-frontend.git
+💡 What I Learned
+This project helped me understand how to structure an e-commerce layout, improve my responsive design skills, and organize components like product cards, filters, and navigation. It also helped me practice real-world UI/UX decisions.
